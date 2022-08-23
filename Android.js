@@ -26,8 +26,8 @@ const desiredCapabilities = {
   platformName: "android",
   platformVersion: deviceVersion,
   video: true,
-  visual: true,
-  geoLocation: "FR",
+  visual: true
+//   geoLocation: "FR"
 };
 
 console.log("buildName ", buildName);
