@@ -23,8 +23,8 @@ desired_capabilities = {
     'network':true,
 //  'build':"Parag_iOS_Geolocation',
     'build':buildName,
-    'name': 'Sample Test - NodeJS',
-    'geoLocation': 'FR'    
+    'name': 'Sample Test - NodeJS'
+//     'geoLocation': 'FR'    
 }
 
 console.log("buildName ", buildName);
