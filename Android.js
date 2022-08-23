@@ -18,7 +18,7 @@ const deviceVersion = process.env.LT_DEVICE_VERSION;
  */
 const desiredCapabilities = {
   app: appId, // Enter the 'app_url' here.
-  build: buildName,
+//   build: buildName,
   name: "Sample Test NodeJS",
   deviceName: deviceName,
   isRealMobile: true,
