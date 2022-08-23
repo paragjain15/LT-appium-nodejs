@@ -18,7 +18,7 @@ const deviceVersion = process.env.LT_DEVICE_VERSION;
  */
 const desiredCapabilities = {
   app: appId, // Enter the 'app_url' here.
-  build: "Parag",
+  build: "Parag_Android_Geolocation",
   name: "Sample Test NodeJS",
   deviceName: deviceName,
   isRealMobile: true,
@@ -26,6 +26,7 @@ const desiredCapabilities = {
   platformVersion: deviceVersion,
   video: true,
   visual: true,
+  geoLocation: "FR",
 };
 
 console.log("buildName ", buildName);
