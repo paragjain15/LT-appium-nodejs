@@ -21,7 +21,8 @@ desired_capabilities = {
     'visual':true,
     'video': true,
     'network':true,
-    'build':"Parag_iOS_Geolocation',
+//  'build':"Parag_iOS_Geolocation',
+    'build':buildName,
     'name': 'Sample Test - NodeJS',
     'geoLocation': 'FR'    
 }
