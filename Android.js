@@ -26,8 +26,8 @@ const desiredCapabilities = {
   platformName: "android",
   platformVersion: deviceVersion,
   video: true,
-  visual: true
-//   tunnel: true
+  visual: true,
+  tunnel: true
 //   geoLocation: "FR"
 };
 
